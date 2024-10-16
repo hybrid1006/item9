@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+nav {
+}
+
+.viatours-logo {
+    width: 167px;
+    height: 32px;
+}
+
+.nav-menu {
+    width: 641.84px;
+    text-align: center;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu ul li {
+    list-style-type: none;
+    display: list-item;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    opacity: 1 !important;
+}
+
+.nav-user ul {
+    display: flex;
+}
+
+.nav-user ul li {
+    list-style-type: none;
+    display: list-item;
+}
+
+.nav-user ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    opacity: 1 !important;
+}
+
+.nav-user .loginBtn {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 88px;
+}
+
+main .top-section {
+    margin: 30px 30px 0 30px;
+}
