@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    position: absolute;
     width: 100%;
+    position: absolute;
 }
 
 nav {
@@ -83,4 +83,151 @@ nav {
 
 main .top-section {
     margin: 30px 30px 0 30px;
+    background-image: url("/img/header/main_top_river.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 854px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .top-section div.text-area {
+    margin-top: 180px;
+    margin-left: 300px;
+}
+
+main .top-section div.img-area {
+    margin-top: 300px;
+    margin-right: 300px;
+}
+
+main .top-section div.text-starting {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+main .top-section div.text-iceland {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 0cap;
+}
+
+main .top-section div.text-enjoy {
+    font-size: 13px;
+}
+
+main .top-section div p.text {
+    color: white;
+}
+
+main .top-section div.btn-tour {
+    padding-top: 10px;
+    text-align: center;
+}
+
+main .top-section div.btn-tour a {
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    width: 100px;
+}
+
+main .trending_destinations-section {
+    color: #05073c;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 100px;
+}
+
+.trending_destinations-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending_destinations-header .text {
+    font-weight: bold;
+    color: #05073c;
+    font-size: 30px;
+}
+
+.trending_destinations-header .all a {
+    text-decoration: none;
+}
+
+.trending_destinations-list ul {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.trending_destinations-list ul li {
+    align-items: center;
+    display: flex;
+    border: 1px solid #e7e6e6;
+    border-radius: 20px;
+    list-style-type: none;
+    width: 300px;
+    height: 152px;
+    padding-left: 21px;
+}
+
+.trending_destinations-list ul li img {
+    width: 110px;
+    height: 110px;
+}
+
+.trending_destinations-list .text-place-info {
+    margin: 10px;
+}
+
+.trending_destinations-list .place {
+    font-weight: bold;
+}
+
+main .featured-trip-section {
+    color: #05073c;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.featured-trip-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.featured-trip-header .text {
+    font-weight: bold;
+    color: #05073c;
+    font-size: 30px;
+}
+
+.featured-trip-list {
+    margin-top: 50px;
+}
+
+.featured-trip-list ul {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.featured-trip-list ul li {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+}
+
+.featured-trip-list ul li div.featured-trip-info {
+    width: 410px;
+    height: 450px;
+    background-image: url("/img/Featured_trips/featured_trps_1.png");
+}
+
+.featured-trip-info span {
+    color: white;
 }
